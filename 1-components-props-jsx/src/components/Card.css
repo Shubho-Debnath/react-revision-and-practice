@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 50ch;
+  width: 280px;
+  background: red;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(139, 129, 129, 0.5);
+  overflow: hidden;
+}
+img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.title-div {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+}
+.p-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
