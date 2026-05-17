@@ -1,14 +1,12 @@
-
 import './App.css'
-import AAA from './components/AAA'
+import Counter from './components/Counter'
 
 function App() {
- 
 
   return (
-   <>
-   <AAA />
-   </>
+    <>
+    <Counter />
+    </>
   )
 }
 
