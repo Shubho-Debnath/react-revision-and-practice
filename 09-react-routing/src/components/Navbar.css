@@ -1,0 +1,29 @@
+.nav{
+    width: 100vw;
+  background: #245363;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  padding: 10px;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.active{
+    background: #000000;
+  padding: 10px;
+
+}
