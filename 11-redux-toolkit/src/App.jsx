@@ -9,7 +9,7 @@ import {
 } from "./features/counter/counterSlice";
 
 const App = () => {
-  const [inputAmount, setInputAmount] = useState(0);
+  const [inputAmount, setInputAmount] = useState();
   const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
   function handleIncrementCLick() {
@@ -31,9 +31,9 @@ const App = () => {
   return (
     <div className="manContainer">
       <div className="container">
-        <button onClick={handleIncrementCLick}>+</button>
-        <p>{count}</p>
         <button onClick={handledecrementCLick}>-</button>
+        <p>{count}</p>
+        <button onClick={handleIncrementCLick}>+</button>
       </div>
       <div className="inputDiv">
         <input
